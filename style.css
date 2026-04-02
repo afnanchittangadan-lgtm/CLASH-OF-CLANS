@@ -1,0 +1,227 @@
+* {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background: black;
+    display: flex;
+    align-items: center;
+    padding: 15px 40px;
+    width: 1400px;
+    height: 80px;
+    border-left: 200px solid #f5f5f5;
+    position: sticky;
+    
+}
+.navbar-icon{
+    margin-left: 20px;
+}
+.buttons{
+ padding:8px;
+ background-color:gray;
+ color:black;
+position: relative;
+left:325px;
+top:-9px;
+border-radius:13px;
+cursor: pointer;
+}
+.buttons:hover{
+    background-color: aliceblue;
+}
+.icon{
+    width:25px;
+    position: relative;
+    left:500px;
+    cursor: pointer;
+    margin-left:8px;
+}
+.icon-1{
+    width:25px;
+    position: relative;
+    left:500px;
+    cursor: pointer;
+    margin-left:150px;
+}
+.icon:hover{
+    background-color: white;
+}
+.icon img{
+    display:flex;
+    gap:60px;
+}
+
+.logo {
+    width: 90px;
+    margin-right: 100px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+
+
+nav a {
+    color: white;
+    margin-right: 20px;
+    font-size: 16px;
+    text-decoration:none;
+    cursor:poi;
+}
+
+.hero {
+    height: 80vh;
+    background-image: url("image/bg_hero_games.79b5a33d.webp");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    color: black;
+}
+
+.hero h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 90px;;
+  padding:50px;
+
+  
+}
+.card2 {
+  width: 40%;
+  position: relative;
+  right:350px;
+}
+
+.card2 img {
+  width: 100%;
+  
+}
+
+.card1 {
+  width: 40%;
+  cursor: pointer;
+}
+
+.card1 img {
+  width: 100%;
+  
+}
+.tagline {
+    display:flex;
+    justify-content:center;
+    color: #ff2e8b;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 14px;
+    letter-spacing: 1px;
+}
+.name{
+    display:flex;
+    justify-content:center;
+}
+.pekkad {
+    background-color: rgb(37, 109, 213)
+;
+    height: 180px;
+    display: flex;
+    justify-content:center;
+    align-items: start;
+    flex-direction: column;
+}
+
+.pekka {
+    height: 280px;
+    position:absolute;
+    right : 300px;
+}
+
+.pekka-p {
+    color: white;
+    font-size: 30px;
+    padding-left: 300px;
+}
+
+.buttonp {
+    padding: 12px;
+    cursor: pointer;
+    border-radius: 8px;
+    margin-left: 450px;   
+    margin-top: 15px;     
+}
+
+.pekka-head{
+    background-color: rgb(37, 109, 213)
+;
+    height: 50px;
+}
+.footer-top{
+    background-color: black;
+    width: 100%;
+    height: 200px;
+    position: relative;
+    height:200px;
+
+}
+
+.social-media{
+    width:25px;
+    margin-top:40px;
+    margin-left:30px;
+    cursor: pointer;
+}
+.follow{
+    color:white;
+    position: absolute;
+    left: 25px;
+    margin-top:10px;
+    margin-left: 45px;
+    font-size:10px;
+}
+
+
+
+.footer-top{
+    background-color: #000000;
+    display: flex;
+    justify-content:start;
+    height: 100px;
+    padding-top: 30px;
+    padding-left: 50px;
+    border-top:white;
+}
+.img-box{
+    padding-left: 700px;
+    margin-top:40px;
+}
+.apple{
+    width: 130px;
+    height:50px;
+    cursor: pointer;
+
+}
+.footer-bottom {
+    background-color: #000;
+    color: #aaa;
+    align-content: center;
+    font-size: 14px;
+    height: 400px;
+    padding-left:70px;
+}
+.supercell{
+    width:50px;
+    position: relative;
+    left: 1200px;
+    bottom:30px;
+    cursor:pointer;
+    
+}
