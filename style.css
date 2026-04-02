@@ -73,7 +73,7 @@ nav a {
 
 .hero {
     height: 80vh;
-    background-image: url("image/bg_hero_games.79b5a33d.webp");
+    background-image: url("./hero.png");
     background-size: cover;
     background-position: center;
     display: flex;
@@ -225,3 +225,4 @@ nav a {
     cursor:pointer;
     
 }
+
